@@ -87,3 +87,5 @@ function checkHasAllParams(requiredParams, newData, response) {
 app.listen(port, () => {
   console.log(`${app.locals.title} is now running on http://localhost:${port} !`)
 });
+
+module.exports = app;
